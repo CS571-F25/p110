@@ -13,17 +13,15 @@ import Photos from './pages/Photos';
 import Schedule from './pages/Schedule';
 import Login from './pages/Login';
 
+import jteam from './jsons/team.json';
+
 function App() {
 
   const [team, setTeam] = useState({});
 
   useEffect(() => {
-    fetch('./src/jsons/team.json')
-      .then(res => res.json())
-      .then(data => {
-        setTeam(data);
-        console.log(data);
-      });
+    setTeam(jteam);
+    console.log(jteam);
   }, []);
 
   return (

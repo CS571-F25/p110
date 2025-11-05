@@ -3,6 +3,7 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
 
 import TeamContext from "./context/TeamContext.js";
+import crest3 from "./images/crest3.png";
 
 function AppLayout(props) {
 
@@ -14,7 +15,7 @@ function AppLayout(props) {
             <Navbar bg="success" variant="dark" fixed="top">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
-                        <img src="./src/images/crest3.png" alt="crest3" style={{ width: '40px' }} />{' '}
+                        <img src={crest3} alt="crest3" style={{ width: '40px' }} />{' '}
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link as={Link} className="fs-5" to="/">Home</Nav.Link>
