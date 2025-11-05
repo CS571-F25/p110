@@ -11,10 +11,11 @@ import Home from './Home';
 import News from './News';
 import Photos from './Photos';
 import Schedule from './Schedule';
+import Login from './Login';
 
 function App() {
 
-  const [team, setTeam] = useState([]);
+  const [team, setTeam] = useState({});
 
   useEffect(() => {
     fetch('./src/team.json')
@@ -28,13 +29,14 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<AppLayout team={team}/>}>
+          <Route path="/" element={<AppLayout team={team} setTeam={setTeam}/>}>
             <Route index element={<Home />} />
             <Route path="/News" element={<News />}></Route>
             <Route path="/Photos" element={<Photos />}></Route>
             <Route path="/Schedule" element={<Schedule />}></Route>
             <Route path="/Team" element={<Team />}></Route>
             <Route path="/BecomeAnOwner" element={<BecomeAnOwner />}></Route>
+            <Route path="/Login" element={<Login />}></Route>
             <Route path="*" element={<NoMatch />} />
           </Route>
         </Routes>

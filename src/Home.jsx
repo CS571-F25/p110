@@ -8,7 +8,7 @@ export default function Home(props) {
 
     const [team, setTeam] = useContext(TeamContext);
 
-    const [week, setWeek] = useState(team.week);
+    const week = team?.week?.toString() ?? "0";
     const [homeScore, setHomeScore] = useState(0);
     const [oppScore, setOppScore] = useState(0);
     const [oppName, setOppName] = useState("OPPONENT");
@@ -22,8 +22,32 @@ export default function Home(props) {
     const [homePredicted, sethomePredicted] = useState(0);
     const [oppPredicted, setOppPredicted] = useState(0);
 
+    useEffect(() => {
+        if (!team.weeks || !team.weeks[week]) return;
+        
+        setHomeScore(team.weeks[week].matchup.your_score);
+        sethomePredicted(team.weeks[week].matchup.your_projected);
+        setOppScore(team.weeks[week].matchup.opponent_score);
+        setOppName(team.weeks[week].matchup.opponent);
+        setOppPredicted(team.weeks[week].matchup.opponent_projected);
+    }, [team, week]);
+    
+    useEffect(() => {
+        const myTeam = team?.teams?.["Big Money Ballin'"]?.[0];
+        if (!myTeam) return;
+        setHomeWins(myTeam.wins);
+        setHomeLosses(myTeam.losses);
+        setHomeTies(myTeam.ties);
+
+        const oppTeam = team?.teams?.[oppName]?.[0];
+        if (!oppTeam) return;
+        setOppWins(oppTeam.wins);
+        setOppLosses(oppTeam.losses);
+        setOppTies(oppTeam.ties);
+    }, [team, oppName]);
+
     return <>
-        <img src="./src/banner-xshort.png" className='p-3' style={{ width: '800px'}}></img>
+        <img src="./src/banner-xshort.png" className='p-3' style={{ width: '800px' }}></img>
         <Container className='p-3' style={{ backgroundColor: "white", width: '1200px' }}>
             <h5>Week {week}</h5>
             <Row>

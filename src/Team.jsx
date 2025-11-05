@@ -20,8 +20,8 @@ export default function Team() {
             <Col />
             {Object.keys(team.weeks).map(week =>
                 <Col key={week}>
-                    {currWeek === week ? <Button disabled>Week {week}</Button> : <Button onClick={() => setCurrWeek(week)}>Week {week}</Button>
-                    }</Col>
+                    <Button variant="success" disabled={week === currWeek} onClick={() => setCurrWeek(week)}>Week {week}</Button>
+                </Col>
             )}
             <Col />
         </Row>
@@ -45,7 +45,8 @@ export default function Team() {
                         <Row>
                             <Col>Name</Col>
                             <Col>Team</Col>
-                            <Col>Points</Col>
+                            <Col>Projected Points</Col>
+                            <Col>Final Points</Col>
                         </Row>
                     </Card>
                     {
@@ -54,6 +55,7 @@ export default function Team() {
                                 <Row>
                                     <Col>{player.name}</Col>
                                     <Col>{player.team}</Col>
+                                    <Col></Col>
                                     <Col>{player.points}</Col>
                                 </Row>
                             </Card>

@@ -1,0 +1,213 @@
+{
+  "team_name": "Big Money Ballin'",
+  "league": "ESPN Fantasy 2025",
+  "weeks": {
+
+    "1": {
+      "players": [
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "status": "Starter", "points": 22.58 },
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "status": "Starter", "points": 18.4 },
+        { "name": "James Cook", "position": "RB", "team": "BUF", "status": "Starter", "points": 21.2 },
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "status": "Starter", "points": 1.8 },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "status": "Starter", "points": 11.7 },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "status": "Starter", "points": 12.7 },
+        { "name": "Davante Adams", "position": "FLEX", "team": "LAR", "status": "FLEX", "points": 9.1 },
+        { "name": "Patriots Defense", "position": "D/ST", "team": "NE", "status": "Starter", "points": 5.0 },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": 5.0 }
+      ],
+      "bench": [
+        { "name": "Isiah Pacheco", "position": "RB", "team": "KC", "points": 4.8 },
+        { "name": "Evan Engram", "position": "TE", "team": "DEN", "points": 5.1 },
+        { "name": "Travis Hunter", "position": "WR/CB", "team": "JAX", "points": 9.3 },
+        { "name": "Brock Purdy", "position": "QB", "team": "SF", "points": 16.78 },
+        { "name": "Matthew Golden", "position": "WR", "team": "HOU", "points": 3.6 },
+        { "name": "Tank Bigsby", "position": "RB", "team": "KC", "points": 1.2 },
+        { "name": "Justice Hill", "position": "RB", "team": "BAL", "points": -0.1 }
+      ]
+    },
+
+    "2": {
+      "players": [
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "status": "Starter", "points": 19.9 },
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "status": "Starter", "points": 17.4 },
+        { "name": "James Cook", "position": "RB", "team": "BUF", "status": "Starter", "points": 26.5 },
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "status": "Starter", "points": 7.7 },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "status": "Starter", "points": 7.2 },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "status": "Starter", "points": 10.1 },
+        { "name": "Davante Adams", "position": "FLEX", "team": "LAR", "status": "FLEX", "points": 22.6 },
+        { "name": "Patriots Defense", "position": "D/ST", "team": "NE", "status": "Starter", "points": 12.0 },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": 1.0 }
+      ],
+      "bench": [
+        { "name": "Isiah Pacheco", "position": "RB", "team": "KC", "points": 3.9 },
+        { "name": "Evan Engram", "position": "TE", "team": "DEN", "points": 2.2 },
+        { "name": "Travis Hunter", "position": "WR/CB", "team": "JAX", "points": 5.2 },
+        { "name": "Brock Purdy", "position": "QB", "team": "SF", "points": null },
+        { "name": "Matthew Golden", "position": "WR", "team": "HOU", "points": 1.5 },
+        { "name": "Tank Bigsby", "position": "RB", "team": "KC", "points": 0.0 },
+        { "name": "Deebo Samuel", "position": "WR", "team": "WSH", "points": 17.4 }
+      ]
+    },
+
+    "3": {
+      "players": [
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "status": "Starter", "points": 17.72 },
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "status": "Starter", "points": 9.5 },
+        { "name": "James Cook", "position": "RB", "team": "BUF", "status": "Starter", "points": 20.8 },
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "status": "Starter", "points": 22.9 },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "status": "Starter", "points": 5.3 },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "status": "Starter", "points": 6.6 },
+        { "name": "Davante Adams", "position": "FLEX", "team": "LAR", "status": "FLEX", "points": 14.6 },
+        { "name": "Colts Defense", "position": "D/ST", "team": "IND", "status": "Starter", "points": 16.0 },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": 20.0 }
+      ],
+      "bench": [
+        { "name": "Isiah Pacheco", "position": "RB", "team": "KC", "points": 5.8 },
+        { "name": "Evan Engram", "position": "TE", "team": "DEN", "points": null },
+        { "name": "Travis Hunter", "position": "WR/CB", "team": "JAX", "points": 3.1 },
+        { "name": "Brock Purdy", "position": "QB", "team": "SF", "points": null },
+        { "name": "Matthew Golden", "position": "WR", "team": "HOU", "points": 10.1 },
+        { "name": "Keon Coleman", "position": "WR", "team": "BUF", "points": 5.0 }
+      ]
+    },
+
+    "4": {
+      "players": [
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "status": "Starter", "points": 18.86 },
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "status": "Starter", "points": 17.4 },
+        { "name": "James Cook", "position": "RB", "team": "BUF", "status": "Starter", "points": 22.5 },
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "status": "Starter", "points": 1.8 },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "status": "Starter", "points": 11.7 },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "status": "Starter", "points": 12.7 },
+        { "name": "Davante Adams", "position": "FLEX", "team": "LAR", "status": "FLEX", "points": 15.6 },
+        { "name": "Lions Defense", "position": "D/ST", "team": "DET", "status": "Starter", "points": 20.0 },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": 17.0 }
+      ],
+      "bench": [
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "points": 16.1 },
+        { "name": "Travis Hunter", "position": "WR/CB", "team": "JAX", "points": 7.2 },
+        { "name": "Brock Purdy", "position": "QB", "team": "SF", "points": 17.66 },
+        { "name": "Deebo Samuel", "position": "WR", "team": "WSH", "points": 20.1 },
+        { "name": "Keon Coleman", "position": "WR", "team": "BUF", "points": 7.5 },
+        { "name": "Jacory Croskey-Merritt", "position": "RB", "team": "WSH", "points": 7.7 },
+        { "name": "Dallas Goedert", "position": "TE", "team": "PHI", "points": 19.7 }
+      ]
+    },
+
+    "5": {
+      "players": [
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "status": "Starter", "points": 26.66 },
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "status": "Starter", "points": 17.8 },
+        { "name": "James Cook", "position": "RB", "team": "BUF", "status": "Starter", "points": 4.9 },
+        { "name": "Davante Adams", "position": "WR", "team": "LAR", "status": "Starter", "points": 13.8 },
+        { "name": "Deebo Samuel", "position": "WR", "team": "WSH", "status": "Starter", "points": 23.6 },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "status": "Starter", "points": 19.1 },
+        { "name": "Keon Coleman", "position": "FLEX", "team": "BUF", "status": "FLEX", "points": 10.3 },
+        { "name": "Lions Defense", "position": "D/ST", "team": "DET", "status": "Starter", "points": 10.0 },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": 12.0 }
+      ],
+      "bench": [
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "points": 9.3 },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "points": 24.6 },
+        { "name": "Brock Purdy", "position": "QB", "team": "SF", "points": null },
+        { "name": "Matthew Golden", "position": "WR", "team": "HOU", "points": null },
+        { "name": "Jacory Croskey-Merritt", "position": "RB", "team": "WSH", "points": 27.0 },
+        { "name": "Dallas Goedert", "position": "TE", "team": "PHI", "points": 10.9 },
+        { "name": "Ladd McConkey", "position": "WR", "team": "LAC", "points": 14.9 }
+      ]
+    },
+
+    "6": {
+      "players": [
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "status": "Starter", "points": 19.64 },
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "status": "Starter", "points": 8.7 },
+        { "name": "Jacory Croskey-Merritt", "position": "RB", "team": "WSH", "status": "Starter", "points": 5.8 },
+        { "name": "Davante Adams", "position": "WR", "team": "LAR", "status": "Starter", "points": 7.9 },
+        { "name": "Matthew Golden", "position": "WR", "team": "HOU", "status": "Starter", "points": 13.2 },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "status": "Starter", "points": 13.8 },
+        { "name": "Dallas Goedert", "position": "FLEX", "team": "PHI", "status": "FLEX", "points": 26.0 },
+        { "name": "Broncos Defense", "position": "D/ST", "team": "DEN", "status": "Starter", "points": 17.0 },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": 6.0 }
+      ],
+      "bench": [
+        { "name": "James Cook", "position": "RB", "team": "BUF", "points": 8.7 },
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "points": 14.0 },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "points": 5.8 },
+        { "name": "Brock Purdy", "position": "QB", "team": "SF", "points": null },
+        { "name": "Deebo Samuel", "position": "WR", "team": "WSH", "points": 5.4 },
+        { "name": "Ladd McConkey", "position": "WR", "team": "LAC", "points": 23.0 },
+        { "name": "Jordan Addison", "position": "WR", "team": "MIN", "points": null }
+      ]
+    },
+
+    "7": {
+      "players": [
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "status": "Starter", "points": 11.12 },
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "status": "Starter", "points": 5.2 },
+        { "name": "Jacory Croskey-Merritt", "position": "RB", "team": "WSH", "status": "Starter", "points": 4.2 },
+        { "name": "Davante Adams", "position": "WR", "team": "LAR", "status": "Starter", "points": 26.5 },
+        { "name": "Matthew Golden", "position": "WR", "team": "HOU", "status": "Starter", "points": 7.7 },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "status": "Starter", "points": 8.4 },
+        { "name": "Dallas Goedert", "position": "FLEX", "team": "PHI", "status": "FLEX", "points": 4.8 },
+        { "name": "Broncos Defense", "position": "D/ST", "team": "DEN", "status": "Starter", "points": 4.0 },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": 5.0 }
+      ],
+      "bench": [
+        { "name": "James Cook", "position": "RB", "team": "BUF", "points": null },
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "points": 28.1 },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "points": 13.9 },
+        { "name": "Brock Purdy", "position": "QB", "team": "SF", "points": null },
+        { "name": "Deebo Samuel", "position": "WR", "team": "WSH", "points": null },
+        { "name": "Ladd McConkey", "position": "WR", "team": "LAC", "points": 15.7 },
+        { "name": "Jordan Addison", "position": "WR", "team": "MIN", "points": 21.8 }
+      ]
+    },
+
+    "8": {
+      "players": [
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "status": "Starter", "points": 4.08 },
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "status": "Starter", "points": 33.4 },
+        { "name": "James Cook", "position": "RB", "team": "BUF", "status": "Starter", "points": 33.6 },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "status": "Starter", "points": 10.4 },
+        { "name": "Deebo Samuel", "position": "WR", "team": "WSH", "status": "Starter", "points": 4.2 },
+        { "name": "Dallas Goedert", "position": "TE", "team": "PHI", "status": "Starter", "points": 17.8 },
+        { "name": "Jordan Addison", "position": "FLEX", "team": "MIN", "status": "FLEX", "points": 11.6 },
+        { "name": "Buccaneers Defense", "position": "D/ST", "team": "TB", "status": "Starter", "points": 25.0 },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": 17.0 }
+      ],
+      "bench": [
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "points": 0.0 },
+        { "name": "Davante Adams", "position": "WR", "team": "LAR", "points": null },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "points": 21.9 },
+        { "name": "Matthew Golden", "position": "WR", "team": "HOU", "points": 3.4 },
+        { "name": "Jacory Croskey-Merritt", "position": "RB", "team": "WSH", "points": 2.5 },
+        { "name": "Ladd McConkey", "position": "WR", "team": "LAC", "points": 20.8 },
+        { "name": "Matthew Stafford", "position": "QB", "team": "LAR", "points": null }
+      ]
+    },
+
+    "9": {
+      "players": [
+        { "name": "Matthew Stafford", "position": "QB", "team": "LAR", "status": "Starter", "points": null },
+        { "name": "James Cook", "position": "RB", "team": "BUF", "status": "Starter", "points": null },
+        { "name": "Jacory Croskey-Merritt", "position": "RB", "team": "WSH", "status": "Starter", "points": null },
+        { "name": "Stefon Diggs", "position": "WR", "team": "NE", "status": "Starter", "points": null },
+        { "name": "Deebo Samuel", "position": "WR", "team": "WSH", "status": "Starter", "points": null },
+        { "name": "Travis Kelce", "position": "TE", "team": "KC", "status": "Starter", "points": null },
+        { "name": "Jordan Addison", "position": "FLEX", "team": "MIN", "status": "FLEX", "points": null },
+        { "name": "Buccaneers Defense", "position": "D/ST", "team": "TB", "status": "Starter", "points": null },
+        { "name": "Chase McLaughlin", "position": "K", "team": "TB", "status": "Starter", "points": null }
+      ],
+      "bench": [
+        { "name": "Saquon Barkley", "position": "RB", "team": "PHI", "points": null },
+        { "name": "A.J. Brown", "position": "WR", "team": "PHI", "points": null },
+        { "name": "Davante Adams", "position": "WR", "team": "LAR", "points": null },
+        { "name": "Baker Mayfield", "position": "QB", "team": "TB", "points": null },
+        { "name": "Matthew Golden", "position": "WR", "team": "HOU", "points": null },
+        { "name": "Dallas Goedert", "position": "TE", "team": "PHI", "points": null },
+        { "name": "Ladd McConkey", "position": "WR", "team": "LAC", "points": null }
+      ]
+    }
+
+  }
+}
