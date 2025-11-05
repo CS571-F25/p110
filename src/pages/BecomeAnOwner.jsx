@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Button, Form, Col, Row, Alert } from "react-bootstrap";
 
+import kmb from "../images/kelcemayfieldbarkley.png";
+
 export default function BecomeAnOwner() {
 
     return <>
@@ -22,7 +24,7 @@ export default function BecomeAnOwner() {
             </Col>
             <Col>
                 <img
-                    src="./src/images/kelcemayfieldbarkley.png"
+                    src={kmb}
                     alt="kelce mayfield barkley"
                     style={{ width: 300 }}
                     className='my-3'
