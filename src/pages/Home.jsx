@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Button, Row, Col, Container, Form } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import { useOutletContext } from "react-router-dom";
-import TeamContext from './TeamContext';
+import TeamContext from '../context/TeamContext';
 
 export default function Home(props) {
 
@@ -18,7 +18,7 @@ export default function Home(props) {
     const [oppWins, setOppWins] = useState(0);
     const [oppLosses, setOppLosses] = useState(0);
     const [oppTies, setOppTies] = useState(0);
-    const [oppLogo, setOppLogo] = useState("./src/crest3.png");
+    const [oppLogo, setOppLogo] = useState("./src/images/crest3.png");
     const [homePredicted, sethomePredicted] = useState(0);
     const [oppPredicted, setOppPredicted] = useState(0);
 
@@ -47,12 +47,12 @@ export default function Home(props) {
     }, [team, oppName]);
 
     return <>
-        <img src="./src/banner-xshort.png" className='p-3' style={{ width: '800px' }}></img>
+        <img src="./src/images/banner-xshort.png" className='p-3' style={{ width: '800px' }}></img>
         <Container className='p-3' style={{ backgroundColor: "white", width: '1200px' }}>
             <h5>Week {week}</h5>
             <Row>
                 <Col xs="auto">
-                    <img src="./src/crest3.png" style={{ width: '50px' }}></img>
+                    <img src="./src/images/crest3.png" style={{ width: '50px' }}></img>
                 </Col>
                 <Col>
                     <h4>{team.team_name}</h4>

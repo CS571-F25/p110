@@ -22,7 +22,7 @@ export default function BecomeAnOwner() {
             </Col>
             <Col>
                 <img
-                    src="./src/kelcemayfieldbarkley.png"
+                    src="./src/images/kelcemayfieldbarkley.png"
                     alt="kelce mayfield barkley"
                     style={{ width: 300 }}
                     className='my-3'

@@ -3,44 +3,44 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router';
 import { Container } from 'react-bootstrap';
 
-import Team from './Team';
-import BecomeAnOwner from './BecomeAnOwner';
+import Team from './pages/Team';
+import BecomeAnOwner from './pages/BecomeAnOwner';
 import AppLayout from './AppLayout';
-import NoMatch from './NoMatch';
-import Home from './Home';
-import News from './News';
-import Photos from './Photos';
-import Schedule from './Schedule';
-import Login from './Login';
+import NoMatch from './pages/NoMatch';
+import Home from './pages/Home';
+import News from './pages/News';
+import Photos from './pages/Photos';
+import Schedule from './pages/Schedule';
+import Login from './pages/Login';
 
 function App() {
 
   const [team, setTeam] = useState({});
 
   useEffect(() => {
-    fetch('./src/team.json')
-    .then(res => res.json())
-    .then(data => {
-      setTeam(data);
-      console.log(data);
-    });
+    fetch('./src/jsons/team.json')
+      .then(res => res.json())
+      .then(data => {
+        setTeam(data);
+        console.log(data);
+      });
   }, []);
 
   return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<AppLayout team={team} setTeam={setTeam}/>}>
-            <Route index element={<Home />} />
-            <Route path="/News" element={<News />}></Route>
-            <Route path="/Photos" element={<Photos />}></Route>
-            <Route path="/Schedule" element={<Schedule />}></Route>
-            <Route path="/Team" element={<Team />}></Route>
-            <Route path="/BecomeAnOwner" element={<BecomeAnOwner />}></Route>
-            <Route path="/Login" element={<Login />}></Route>
-            <Route path="*" element={<NoMatch />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+    <BrowserRouter basename='/p110/'>
+      <Routes>
+        <Route path="/" element={<AppLayout team={team} setTeam={setTeam} />}>
+          <Route index element={<Home />} />
+          <Route path="/News" element={<News />}></Route>
+          <Route path="/Photos" element={<Photos />}></Route>
+          <Route path="/Schedule" element={<Schedule />}></Route>
+          <Route path="/Team" element={<Team />}></Route>
+          <Route path="/BecomeAnOwner" element={<BecomeAnOwner />}></Route>
+          <Route path="/Login" element={<Login />}></Route>
+          <Route path="*" element={<NoMatch />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Button, Form, Row, Col, Card } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import { useOutletContext } from "react-router-dom";
-import TeamContext from './TeamContext';
+import TeamContext from '../context/TeamContext';
 
 
 export default function Team() {
