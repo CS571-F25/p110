@@ -4,6 +4,14 @@ import { useNavigate } from "react-router";
 import { useLocation } from "react-router-dom";
 
 import news from "../jsons/news.json";
+const imageModules = import.meta.glob('../images/*', { eager: true });
+
+const imgMap = Object.fromEntries(
+  Object.entries(imageModules).map(([path, mod]) => {
+    const fileName = path.split("/").pop();
+    return [fileName, mod.default];
+  })
+);
 
 export default function Story() {
 
@@ -21,7 +29,7 @@ export default function Story() {
                     <h1 className="text-center m-4">{title}</h1>
                     <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 20 }} />
                 </Row>
-                <img src={img} style={{ height: 500, width: 800, margin: 30, marginBottom: 20 }}></img>
+                <img src={imgMap[img]} style={{ height: 500, width: 800, margin: 30, marginBottom: 20 }}></img>
                 <p>{caption}</p>
                 <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 20, marginTop: 10 }} />
                 <Row>
