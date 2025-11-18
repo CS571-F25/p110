@@ -20,14 +20,14 @@ export default function Team() {
     }
 
     return <>
-        <Row style={{ margin: 20 }}>
+        <Row className='justify-content-center' style={{ margin: 20 }}>
             <Row className='justify-content-center'>
                 <h1 style={{ marginTop: 40 }}>Team</h1>
                 <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginTop: 10, marginBottom: 60 }} />
             </Row>
-            <Card>
+            <Card className='justify-content-center'>
+                <Row className='justify-content-center' style={{ marginTop: -10 }}><h5>Week</h5></Row>
                 <Row style={{ backgroundColor: "white", padding: 10 }} className='justify-content-center'>
-                    <Col className="d-flex flex-column justify-content-center"><h5>Week</h5></Col>
                     {
                         Object.keys(team.weeks).map(week =>
                             <Col key={week} className="d-flex flex-column justify-content-center">
@@ -38,13 +38,13 @@ export default function Team() {
                 </Row>
             </Card>
         </Row>
-        <Row>
+        <Row className='justify-content-center'>
             <Row className='justify-content-center'>
                 <h3 style={{ marginTop: 40 }}>Starters</h3>
                 <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 25 }} />
             </Row>
             <Row className='justify-content-center'>
-                <Col style={{ marginLeft: 30 }} xs='auto'>
+                <Col style={{ marginLeft: 10 }} xs='auto'>
                     <Card style={{ padding: 8 }}>Position</Card>
                     {
                         team.weeks[currWeek].players.map(player =>

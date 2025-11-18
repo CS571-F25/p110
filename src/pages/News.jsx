@@ -22,8 +22,8 @@ export default function News() {
         <Container className="mt-4">
             <Row className="justify-content-center">
                 <Row className="justify-content-center">
-                    <h1 className="text-center m-4">News</h1>
-                    <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 40 }} />
+                    <h1 style={{ marginTop: 40 }}>News</h1>
+                    <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 60, marginTop: 10 }} />
                 </Row>
                 {Object.keys(news).map((c, i) => {
                     return <Col key={i} xs={12} md={6} lg={4} className="mb-4">

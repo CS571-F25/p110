@@ -12,9 +12,11 @@ export default function Schedule() {
     if (!team?.weeks) return <div>Loading...</div>;
 
     return (
-        <Container style={{ paddingTop: 20, alignItems: "center" }}>
-            <h1 style={{ padding: 20 }}>Schedule</h1>
-            <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", margin: "0 auto 1.5rem", padding: 20 }} />
+        <Container className='justify-content-center' style={{ paddingTop: 20 }}>
+            <Row className='justify-content-center'>
+                <h1 style={{ marginTop: 20 }}>Schedule</h1>
+                <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginTop: 10, padding: 20 }} />
+            </Row>
             {Object.keys(team.weeks).map(weekNum => {
                 const week = team.weeks[weekNum];
                 const matchup = week.matchup;
