@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Container, Row, Col } from "react-bootstrap";
+import { Button, Form, Container, Row, Col, Card } from "react-bootstrap";
 import { useNavigate } from "react-router";
 
 import TeamContext from '../context/TeamContext';
@@ -23,7 +23,7 @@ export default function Schedule() {
                 const oppTeam = team.teams[matchup.opponent]?.[0] ?? {};
 
                 return (
-                    <Container key={weekNum} className='p-3' style={{ backgroundColor: "white", width: '1200px', margin: 10 }}>
+                    <Card key={weekNum} className='p-3' style={{ backgroundColor: "white", width: '1200px', margin: 10 }}>
                         <Row>
                             <Col xs="auto" className="d-flex flex-column justify-content-center">
                                 <h5>Week {weekNum}</h5>
@@ -33,7 +33,7 @@ export default function Schedule() {
                                 {`${oppTeam.wins ?? 0}-${oppTeam.losses ?? 0}${oppTeam.ties ? `-${oppTeam.ties}` : ""}`}
                             </Col>
                             <Col className="d-flex flex-column justify-content-center" xs='auto' style={{ margin: 40 }}>
-                                {matchup.your_score > matchup.opponent_score ? <h2>W</h2> : <h2>L</h2>}
+                                {matchup.your_score > matchup.opponent_score ? <h2>W</h2> : matchup.your_score === matchup.opponent_score ? <h2> </h2> : <h2>L</h2>}
                             </Col>
                             <Col className="d-flex flex-column justify-content-center">
                                 <Row className='justify-content-center'>
@@ -52,7 +52,7 @@ export default function Schedule() {
                                 </Row>
                             </Col>
                         </Row>
-                    </Container>
+                    </Card>
                 );
             })}
         </Container >

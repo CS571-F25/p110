@@ -8,6 +8,11 @@ import TeamContext from '../context/TeamContext';
 export default function Team() {
 
     const [team, setTeam] = useContext(TeamContext);
+    useEffect(() => {
+        if (team?.week) {
+            setCurrWeek(team.week.toString());
+        }
+    }, [team]);
     const [currWeek, setCurrWeek] = useState("1");
 
     if (!team || !team.weeks) {
@@ -17,25 +22,29 @@ export default function Team() {
     return <>
         <Row style={{ margin: 20 }}>
             <Row className='justify-content-center'>
-                <h1 style={{ margin: 60 }}>Team</h1>
+                <h1 style={{ marginTop: 40 }}>Team</h1>
+                <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginTop: 10, marginBottom: 60 }} />
             </Row>
-            <Row className='justify-content-center'>
-                {
-                    Object.keys(team.weeks).map(week =>
-                        <Col key={week}>
-                            <Button variant="success" disabled={week === currWeek} onClick={() => setCurrWeek(week)}>Week {week}</Button>
-                        </Col>
-                    )
-                }
-            </Row>
+            <Card>
+                <Row style={{ backgroundColor: "white", padding: 10 }} className='justify-content-center'>
+                    <Col className="d-flex flex-column justify-content-center"><h5>Week</h5></Col>
+                    {
+                        Object.keys(team.weeks).map(week =>
+                            <Col key={week} className="d-flex flex-column justify-content-center">
+                                <Button variant="success" disabled={week === currWeek} onClick={() => setCurrWeek(week)}>{week}</Button>
+                            </Col>
+                        )
+                    }
+                </Row>
+            </Card>
         </Row>
         <Row>
             <Row className='justify-content-center'>
-                <h1 style={{ marginTop: 40 }}>Starters</h1>
-                <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginTop: 10, marginBottom: 40 }} />
+                <h3 style={{ marginTop: 40 }}>Starters</h3>
+                <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 25 }} />
             </Row>
             <Row className='justify-content-center'>
-                <Col xs='auto'>
+                <Col style={{ marginLeft: 30 }} xs='auto'>
                     <Card style={{ padding: 8 }}>Position</Card>
                     {
                         team.weeks[currWeek].players.map(player =>
@@ -73,8 +82,8 @@ export default function Team() {
             </Row>
         </Row>
         <Row className='justify-content-center'>
-            <h1 style={{ marginTop: 50 }}>Bench</h1>
-            <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginTop: 10, marginBottom: 40 }} />
+            <h3 style={{ marginTop: 50 }}>Bench</h3>
+            <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 25 }} />
             <Row>
                 <Card style={{ padding: 8 }}>
                     <Row>
