@@ -12,6 +12,7 @@ import News from './pages/News';
 import Photos from './pages/Photos';
 import Schedule from './pages/Schedule';
 import Login from './pages/Login';
+import Story from './pages/Story';
 
 import jteam from './jsons/team.json';
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/Team" element={<Team />}></Route>
           <Route path="/BecomeAnOwner" element={<BecomeAnOwner />}></Route>
           <Route path="/Login" element={<Login />}></Route>
+          <Route path="/Story" element={<Story />}></Route>
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
