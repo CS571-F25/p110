@@ -1,61 +1,61 @@
 {
   "team_name": "Big Money Ballin'",
   "league": "ESPN Fantasy 2025",
-  "week": 8,
+  "week": 12,
   "teams": {
     "You Got Careyied": [
       {
-        "wins": 5,
-        "losses": 3,
+        "wins": 6,
+        "losses": 5,
         "ties": 0
       }
     ],
     "Kendall deez nuts fit n u mouth": [
       {
         "wins": 4,
-        "losses": 4,
+        "losses": 7,
         "ties": 0
       }
     ],
     "Aiden's Successful Squad": [
       {
-        "wins": 4,
+        "wins": 7,
         "losses": 4,
         "ties": 0
       }
     ],
     "Bye Week": [
       {
-        "wins": 5,
-        "losses": 3,
+        "wins": 7,
+        "losses": 4,
         "ties": 0
       }
     ],
     "Stinky Stinky Poo Poo": [
       {
-        "wins": 4,
-        "losses": 4,
+        "wins": 6,
+        "losses": 5,
         "ties": 0
       }
     ],
     "Skillededededed": [
       {
-        "wins": 1,
-        "losses": 7,
+        "wins": 2,
+        "losses": 9,
         "ties": 0
       }
     ],
     "Big Money Ballin'": [
       {
-        "wins": 4,
-        "losses": 4,
+        "wins": 6,
+        "losses": 5,
         "ties": 0
       }
     ],
     "Maddux's Fantaslay Team 💅": [
       {
-        "wins": 5,
-        "losses": 3,
+        "wins": 6,
+        "losses": 5,
         "ties": 0
       }
     ]
@@ -269,7 +269,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "points": null
+          "points": "OUT"
         },
         {
           "name": "Matthew Golden",
@@ -376,7 +376,7 @@
           "name": "Evan Engram",
           "position": "TE",
           "team": "DEN",
-          "points": null
+          "points": 0.0
         },
         {
           "name": "Travis Hunter",
@@ -388,7 +388,7 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "points": null
+          "points": "OUT"
         },
         {
           "name": "Matthew Golden",
@@ -614,13 +614,13 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "points": null
+          "points": "OUT"
         },
         {
           "name": "Matthew Golden",
           "position": "WR",
           "team": "HOU",
-          "points": null
+          "points": "BYE"
         },
         {
           "name": "Jacory Croskey-Merritt",
@@ -667,11 +667,11 @@
           "points": 8.7
         },
         {
-          "name": "Jacory Croskey-Merritt",
+          "name": "James Cook",
           "position": "RB",
-          "team": "WSH",
+          "team": "BUF",
           "status": "Starter",
-          "points": 5.8
+          "points": 8.7
         },
         {
           "name": "Davante Adams",
@@ -681,11 +681,11 @@
           "points": 7.9
         },
         {
-          "name": "Matthew Golden",
+          "name": "Deebo Samuel",
           "position": "WR",
-          "team": "HOU",
+          "team": "WSH",
           "status": "Starter",
-          "points": 13.2
+          "points": 5.4
         },
         {
           "name": "Travis Kelce",
@@ -695,11 +695,11 @@
           "points": 13.8
         },
         {
-          "name": "Dallas Goedert",
+          "name": "Stefon Diggs",
           "position": "FLEX",
-          "team": "PHI",
+          "team": "NE",
           "status": "FLEX",
-          "points": 26.0
+          "points": 5.8
         },
         {
           "name": "Broncos Defense",
@@ -718,10 +718,10 @@
       ],
       "bench": [
         {
-          "name": "James Cook",
-          "position": "RB",
+          "name": "Keon Coleman",
+          "position": "WR",
           "team": "BUF",
-          "points": 8.7
+          "points": 4.1
         },
         {
           "name": "A.J. Brown",
@@ -730,22 +730,22 @@
           "points": 14.0
         },
         {
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "NE",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WSH",
           "points": 5.8
         },
         {
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "points": null
+          "points": "OUT"
         },
         {
-          "name": "Deebo Samuel",
-          "position": "WR",
-          "team": "WSH",
-          "points": 5.4
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "points": 26.0
         },
         {
           "name": "Ladd McConkey",
@@ -754,10 +754,10 @@
           "points": 23.0
         },
         {
-          "name": "Jordan Addison",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "MIN",
-          "points": null
+          "team": "GB",
+          "points": 13.2
         }
       ],
       "matchup": {
@@ -840,7 +840,7 @@
           "name": "James Cook",
           "position": "RB",
           "team": "BUF",
-          "points": null
+          "points": "BYE"
         },
         {
           "name": "A.J. Brown",
@@ -858,13 +858,13 @@
           "name": "Brock Purdy",
           "position": "QB",
           "team": "SF",
-          "points": null
+          "points": "OUT"
         },
         {
           "name": "Deebo Samuel",
           "position": "WR",
           "team": "WSH",
-          "points": null
+          "points": 0.0
         },
         {
           "name": "Ladd McConkey",
@@ -965,7 +965,7 @@
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
-          "points": null
+          "points": "BYE"
         },
         {
           "name": "Travis Kelce",
@@ -995,7 +995,7 @@
           "name": "Matthew Stafford",
           "position": "QB",
           "team": "LAR",
-          "points": null
+          "points": "BYE"
         }
       ],
       "matchup": {
@@ -1014,63 +1014,63 @@
           "position": "QB",
           "team": "LAR",
           "status": "Starter",
-          "points": null
+          "points": 26.84
         },
         {
           "name": "James Cook",
           "position": "RB",
           "team": "BUF",
           "status": "Starter",
-          "points": null
+          "points": 13.5
         },
         {
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WSH",
           "status": "Starter",
-          "points": null
+          "points": 5.1
         },
         {
-          "name": "Stefon Diggs",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "NE",
+          "team": "LAR",
           "status": "Starter",
-          "points": null
+          "points": 23.0
         },
         {
-          "name": "Deebo Samuel",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "WSH",
+          "team": "LAC",
           "status": "Starter",
-          "points": null
+          "points": 9.6
         },
         {
           "name": "Travis Kelce",
           "position": "TE",
           "team": "KC",
           "status": "Starter",
-          "points": null
+          "points": 12.6
         },
         {
-          "name": "Jordan Addison",
+          "name": "Deebo Samuel",
           "position": "FLEX",
           "team": "MIN",
           "status": "FLEX",
-          "points": null
+          "points": 9.4
         },
         {
-          "name": "Buccaneers Defense",
+          "name": "Broncos Defense",
           "position": "D/ST",
-          "team": "TB",
+          "team": "DEN",
           "status": "Starter",
-          "points": null
+          "points": 7.0
         },
         {
-          "name": "Chase McLaughlin",
+          "name": "Andy Borregales",
           "position": "K",
-          "team": "TB",
+          "team": "NE",
           "status": "Starter",
-          "points": null
+          "points": 6.0
         }
       ],
       "bench": [
@@ -1078,43 +1078,43 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
-          "points": null
+          "points": "BYE"
         },
         {
           "name": "A.J. Brown",
           "position": "WR",
           "team": "PHI",
-          "points": null
+          "points": "IR/BYE"
         },
         {
-          "name": "Davante Adams",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "LAR",
-          "points": null
+          "team": "NE",
+          "points": 12.8
         },
         {
           "name": "Baker Mayfield",
           "position": "QB",
           "team": "TB",
-          "points": null
+          "points": "BYE"
         },
         {
           "name": "Matthew Golden",
           "position": "WR",
           "team": "HOU",
-          "points": null
+          "points": 2.9
         },
         {
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "points": null
+          "points": "BYE"
         },
         {
-          "name": "Ladd McConkey",
+          "name": "Jordan Addison",
           "position": "WR",
-          "team": "LAC",
-          "points": null
+          "team": "MIN",
+          "points": 8.4
         }
       ],
       "matchup": {

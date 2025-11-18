@@ -91,7 +91,7 @@ export default function Team() {
                                 <Col>{player.name}</Col>
                                 <Col>{player.position}</Col>
                                 <Col>{player.team}</Col>
-                                <Col>{player.points}</Col>
+                                <Col>{typeof player.points === "string" ? <strong style={{ color: "red" }}>{player.points}</strong> : player.points}</Col>
                             </Row>
                         </Card>
                     )
