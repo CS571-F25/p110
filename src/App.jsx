@@ -9,10 +9,16 @@ import AppLayout from './AppLayout';
 import NoMatch from './pages/NoMatch';
 import Home from './pages/Home';
 import News from './pages/News';
-import Photos from './pages/Photos';
+import Field from './pages/Field';
 import Schedule from './pages/Schedule';
 import Login from './pages/Login';
 import Story from './pages/Story';
+import KnowBeforeYouGo from './pages/field/KnowBeforeYouGo';
+import StadiumMap from './pages/field/StadiumMap';
+import Parking from './pages/field/Parking';
+import FanCodeOfConduct from './pages/field/FanCodeOfConduct';
+import CarryInPolicy from './pages/field/CarryInPolicy';
+import ContactUs from './pages/field/ContactUs';
 
 import jteam from './jsons/team.json';
 
@@ -31,12 +37,18 @@ function App() {
         <Route path="/" element={<AppLayout team={team} setTeam={setTeam} />}>
           <Route index element={<Home />} />
           <Route path="/News" element={<News />}></Route>
-          <Route path="/Photos" element={<Photos />}></Route>
+          <Route path="/Field" element={<Field />}></Route>
           <Route path="/Schedule" element={<Schedule />}></Route>
           <Route path="/Team" element={<Team />}></Route>
           <Route path="/BecomeAnOwner" element={<BecomeAnOwner />}></Route>
           <Route path="/Login" element={<Login />}></Route>
           <Route path="/Story" element={<Story />}></Route>
+          <Route path="/KnowBeforeYouGo" element={<KnowBeforeYouGo />}></Route>
+          <Route path="/StadiumMap" element={<StadiumMap />}></Route>
+          <Route path="/Parking" element={<Parking />}></Route>
+          <Route path="/FanCodeOfConduct" element={<FanCodeOfConduct />}></Route>
+          <Route path="/CarryInPolicy" element={<CarryInPolicy />}></Route>
+          <Route path="/ContactUs" element={<ContactUs />}></Route>
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>

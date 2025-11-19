@@ -1,48 +1,54 @@
 {
   "team_name": "Big Money Ballin'",
   "league": "ESPN Fantasy 2025",
-  "week": 12,
+  "week": 11,
   "teams": {
     "You Got Careyied": [
       {
         "wins": 6,
         "losses": 5,
-        "ties": 0
+        "ties": 0,
+        "logo": "careyied.png"
       }
     ],
     "Kendall you guys lose": [
       {
         "wins": 4,
         "losses": 7,
-        "ties": 0
+        "ties": 0,
+        "logo": "kendall.png"
       }
     ],
     "Aiden's Successful Squad": [
       {
         "wins": 7,
         "losses": 4,
-        "ties": 0
+        "ties": 0,
+        "logo": "aiden.png"
       }
     ],
     "Bye Week (Big O)": [
       {
         "wins": 7,
         "losses": 4,
-        "ties": 0
+        "ties": 0,
+        "logo": "byeweek.jpg"
       }
     ],
     "Stinky Stinky": [
       {
         "wins": 6,
         "losses": 5,
-        "ties": 0
+        "ties": 0,
+        "logo": "stinky.png"
       }
     ],
     "Skillededededed": [
       {
         "wins": 2,
         "losses": 9,
-        "ties": 0
+        "ties": 0,
+        "logo": "skillededed.jpg"
       }
     ],
     "Big Money Ballin'": [
@@ -56,7 +62,8 @@
       {
         "wins": 6,
         "losses": 5,
-        "ties": 0
+        "ties": 0,
+        "logo": "maddux.png"
       }
     ]
   },

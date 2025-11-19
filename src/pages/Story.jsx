@@ -30,9 +30,9 @@ export default function Story() {
                     <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 20 }} />
                 </Row>
                 <img src={imgMap[img]} style={{ height: 500, width: 800, margin: 30, marginBottom: 20 }}></img>
-                <p>{caption}</p>
+                <em>{caption}</em>
                 <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 20, marginTop: 10 }} />
-                <Row>
+                <Row style={{ textAlign: "left" }}>
                     <p style={{ whiteSpace: "pre-line", paddingLeft: 100, paddingRight: 100, paddingTop: 30, paddingBottom: 50 }}>{body}</p>
                 </Row>
 

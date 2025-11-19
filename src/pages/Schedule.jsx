@@ -9,10 +9,19 @@ export default function Schedule() {
 
     const [team] = useContext(TeamContext);
 
+    const imageModules = import.meta.glob('../images/*', { eager: true });
+
+    const imgMap = Object.fromEntries(
+        Object.entries(imageModules).map(([path, mod]) => {
+            const fileName = path.split("/").pop();
+            return [fileName, mod.default];
+        })
+    );
+
     if (!team?.weeks) return <div>Loading...</div>;
 
     return (
-        <Container className='justify-content-center' style={{ paddingTop: 20 }}>
+        <Row className='justify-content-center' style={{ paddingTop: 20 }}>
             <Row className='justify-content-center'>
                 <h1 style={{ marginTop: 20 }}>Schedule</h1>
                 <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginTop: 10, padding: 20 }} />
@@ -26,9 +35,12 @@ export default function Schedule() {
 
                 return (
                     <Card key={weekNum} className='p-3' style={{ backgroundColor: "white", width: '1200px', margin: 10 }}>
-                        <Row>
+                        <Row className='justify-content-center'>
                             <Col xs="auto" className="d-flex flex-column justify-content-center">
                                 <h5>Week {weekNum}</h5>
+                            </Col>
+                            <Col xs='auto' className="d-flex flex-column justify-content-center">
+                                <img style={{ width: 50, marginLeft: 100 }} src={imgMap[oppTeam.logo]}></img>
                             </Col>
                             <Col className="d-flex flex-column justify-content-center">
                                 <h4>{matchup.opponent}</h4>
@@ -57,6 +69,6 @@ export default function Schedule() {
                     </Card>
                 );
             })}
-        </Container >
+        </Row >
     )
 }

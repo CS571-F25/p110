@@ -1,14 +1,14 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Col, Row, Alert } from "react-bootstrap";
+import { Button, Form, Col, Row, Alert, Card } from "react-bootstrap";
 
 import kmb from "../images/kelcemayfieldbarkley.png";
 
 export default function BecomeAnOwner() {
 
-    return <>
+    return <Card>
         <Row className='mt-3'>
-            <Col>
-                <h1 className='mt-4 mb-3'>Become an owner!</h1>
+            <Col style={{ marginLeft: 40 }}>
+                <h1 className='mt-4 mb-3'>Become an Owner</h1>
                 <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", margin: "0 auto 1.5rem" }} />
                 <p style={{
                     lineHeight: "1.5",
@@ -31,6 +31,6 @@ export default function BecomeAnOwner() {
                 ></img>
             </Col>
         </Row>
-    </>
+    </Card>
 }
 

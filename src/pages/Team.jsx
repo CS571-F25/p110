@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Row, Col, Card } from "react-bootstrap";
+import { Button, Form, Row, Col, Card, Container } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import { useOutletContext } from "react-router-dom";
 import TeamContext from '../context/TeamContext';
@@ -19,7 +19,7 @@ export default function Team() {
         return <h1>Loading Team...</h1>;
     }
 
-    return <>
+    return <Container>
         <Row className='justify-content-center' style={{ margin: 20 }}>
             <Row className='justify-content-center'>
                 <h1 style={{ marginTop: 40 }}>Team</h1>
@@ -84,7 +84,7 @@ export default function Team() {
         <Row className='justify-content-center'>
             <h3 style={{ marginTop: 50 }}>Bench</h3>
             <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 25 }} />
-            <Row>
+            <Row className='justify-content-center'>
                 <Card style={{ padding: 8 }}>
                     <Row>
                         <Col>Name</Col>
@@ -108,5 +108,5 @@ export default function Team() {
             </Row>
             <Col xs="auto"></Col>
         </Row>
-    </>
+    </Container>
 } 
