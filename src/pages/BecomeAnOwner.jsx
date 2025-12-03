@@ -1,9 +1,13 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Col, Row, Alert, Card } from "react-bootstrap";
+import { Button, Col, Row, Card } from "react-bootstrap";
+import { useState, useEffect } from 'react';
 
 import kmb from "../images/kelcemayfieldbarkley.png";
+import { useNavigate } from "react-router-dom";
 
-export default function BecomeAnOwner() {
+export default function BecomeAnOwner(props) {
+
+    const navigate = useNavigate();
+    const [isAnOwner, setIsAnOwner] = useState(localStorage.getItem("isAnOwner") ?? 0);
 
     return <Card>
         <Row className='mt-3'>
@@ -16,11 +20,31 @@ export default function BecomeAnOwner() {
                     margin: "auto"
                 }}
                 >Just like the legendary Green Bay Packers model, Big Money Ballin’ offers fans a chance to become part of the team itself. Becoming an Owner isn’t about profits or payouts — it’s about belonging, identity, and family. Owners receive official recognition on our roster page, special voting rights on select team decisions throughout the season, and exclusive access to behind-the-scenes updates. Whether you’re here for the culture, the camaraderie, or just to flex your name on the ownership ledger, this is your chance to join something bigger. Own a piece of the story.</p>
-                <Button
-                    className='my-5'
-                    variant='success'
-                    onClick={() => alert("Congratulations! You are now an owner!")}
-                >Become an Owner</Button>
+                {
+                    props.isLoggedIn ?
+                        isAnOwner ?
+                            <Button
+                                className='my-5'
+                                variant='success'
+                            >Thank You For Becoming an Owner</Button>
+                            :
+                            <Button
+                                className='my-5'
+                                variant='success'
+                                onClick={() => {
+                                    alert("Congratulations! You are now an owner!");
+                                    localStorage.setItem("isAnOwner", 1);
+                                    setIsAnOwner(1);
+                                }}
+                            >Become an Owner</Button>
+
+                        :
+                        <Button
+                            className='my-5'
+                            variant='success'
+                            onClick={() => navigate("/Login")}
+                        >Become an Owner</Button>
+                }
             </Col>
             <Col>
                 <img
@@ -31,6 +55,6 @@ export default function BecomeAnOwner() {
                 ></img>
             </Col>
         </Row>
-    </Card>
+    </Card >
 }
 

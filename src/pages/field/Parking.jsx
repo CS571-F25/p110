@@ -1,7 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Card, Container, Row, Col } from "react-bootstrap";
-import { useNavigate } from "react-router";
-import { useLocation } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
 import Parking from '../../images/parking.jpg';
 
@@ -15,7 +12,7 @@ export default function CarryInPolicy() {
                     <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 60, marginTop: 10 }} />
                 </Row>
                 <Row className='justify-content-center'>
-                    <img src={Parking}></img>
+                    <img alt={"parking lot photo"} src={Parking}></img>
                     <p>Parking Lot Map</p>
                 </Row>
                 <Row style={{ textAlign: "left" }}>

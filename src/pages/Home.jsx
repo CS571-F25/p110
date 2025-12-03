@@ -1,12 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Button, Row, Col, Container, Form, Card } from "react-bootstrap";
-import { useNavigate } from "react-router";
-import { useOutletContext } from "react-router-dom";
+import { useContext, useEffect, useState } from 'react';
+import { Row, Col, Card } from "react-bootstrap";
 import TeamContext from '../context/TeamContext';
 
 import crest3 from "../images/crest3.png";
-import banner from "../images/banner-xshort.png";
-import ballin3d from '../images/ballin3dshort2.png';
 
 const imageModules = import.meta.glob('../images/*', { eager: true });
 
@@ -64,14 +60,14 @@ export default function Home(props) {
         <Col className='p-3'>
             <Row className='justify-content-center'>
                 <h1 style={{ marginTop: 20 }}>Official Home of Big Money Ballin' Football</h1>
-                <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 60, marginTop: 10 }} />
+                <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 10, marginTop: 10 }} />
             </Row>
             <Row style={{ marginBottom: 200, marginLeft: 20, marginRight: 20, marginTop: 100 }}>
                 <Card style={{ backgroundColor: "white" }}>
                     <h5 style={{ marginTop: 10, backgroundColor: "white" }}>Week {week} Matchup</h5>
                     <Row style={{ marginBottom: 30 }}>
                         <Col xs="auto">
-                            <img src={crest3} style={{ width: '50px' }}></img>
+                            <img alt={"big money ballin logo"} src={crest3} style={{ width: '50px' }}></img>
                         </Col>
                         <Col>
                             <h4>{team.team_name}</h4>
@@ -90,7 +86,7 @@ export default function Home(props) {
                             {`${oppWins}-${oppLosses}${oppTies === 0 ? "" : "-" + oppTies}`}
                         </Col>
                         <Col xs='auto'>
-                            <img src={imgMap[oppLogo]} style={{ width: '50px' }}></img>
+                            <img alt={"opponent logo"} src={imgMap[oppLogo]} style={{ width: '50px' }}></img>
                         </Col>
                     </Row>
 

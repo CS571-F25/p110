@@ -1,7 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Card, Container, Row, Col } from "react-bootstrap";
-import { useNavigate } from "react-router";
-import { useLocation } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function CarryInPolicy() {
 

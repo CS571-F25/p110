@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Container, Row, Col, Card } from "react-bootstrap";
+import { Button, Container, Row, Col, Card } from "react-bootstrap";
 import { useNavigate } from "react-router";
 
 import StadiumMap from '../images/stadiummap2.jpg';
@@ -21,7 +20,7 @@ export default function Field() {
             </Row>
             <Col xs={12} md={6} lg={4} className="mb-4">
                 <Card className="shadow-sm">
-                    <Card.Img style={{ height: "280px", objectFit: "cover" }} src={Tailgate}></Card.Img>
+                    <Card.Img style={{ height: "280px", objectFit: "cover" }} alt={"fans tailgating"} src={Tailgate}></Card.Img>
                     <Card.Body>
                         <Card.Title style={{ marginBottom: 20 }}>Gameday Information</Card.Title>
                         <Button
@@ -36,7 +35,7 @@ export default function Field() {
             <Col xs={12} md={6} lg={4} className="mb-4">
 
                 <Card className="shadow-sm">
-                    <Card.Img style={{ height: "280px", objectFit: "cover" }} src={StadiumMap}></Card.Img>
+                    <Card.Img style={{ height: "280px", objectFit: "cover" }} alt={"stadium map"} src={StadiumMap}></Card.Img>
                     <Card.Body>
                         <Card.Title style={{ marginBottom: 20 }}>Stadium Map</Card.Title>
                         <Button
@@ -51,7 +50,7 @@ export default function Field() {
             <Col xs={12} md={6} lg={4} className="mb-4">
 
                 <Card className="shadow-sm">
-                    <Card.Img style={{ height: "280px", objectFit: "cover" }} src={Parking}></Card.Img>
+                    <Card.Img style={{ height: "280px", objectFit: "cover" }} alt={"parking lot map"} src={Parking}></Card.Img>
                     <Card.Body>
                         <Card.Title style={{ marginBottom: 20 }}>Parking</Card.Title>
                         <Button
@@ -65,7 +64,7 @@ export default function Field() {
             </Col>
             <Col xs={12} md={6} lg={4} className="mb-4">
                 <Card className="shadow-sm">
-                    <Card.Img style={{ height: "280px", objectFit: "cover" }} src={Fans}></Card.Img>
+                    <Card.Img style={{ height: "280px", objectFit: "cover" }} alt={"fans in the stands"} src={Fans}></Card.Img>
                     <Card.Body>
                         <Card.Title style={{ marginBottom: 20 }}>Fan Code of Conduct</Card.Title>
                         <Button
@@ -79,7 +78,7 @@ export default function Field() {
             </Col>
             <Col xs={12} md={6} lg={4} className="mb-4">
                 <Card className="shadow-sm">
-                    <Card.Img style={{ height: "280px", objectFit: "cover" }} src={Stadium}></Card.Img>
+                    <Card.Img style={{ height: "280px", objectFit: "cover" }} alt={"stadium photo"} src={Stadium}></Card.Img>
                     <Card.Body>
                         <Card.Title style={{ marginBottom: 20 }}>Carry-In Policy</Card.Title>
                         <Button
@@ -94,7 +93,7 @@ export default function Field() {
             <Col xs={12} md={6} lg={4} className="mb-4">
 
                 <Card className="shadow-sm">
-                    <Card.Img style={{ height: "280px", objectFit: "cover" }} src={Ballin3D}></Card.Img>
+                    <Card.Img style={{ height: "280px", objectFit: "cover" }} alt={"big money ballin logo"} src={Ballin3D}></Card.Img>
                     <Card.Body>
                         <Card.Title style={{ marginBottom: 20 }}>Contact Us</Card.Title>
                         <Button

@@ -1,9 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Container, Row, Col, Card } from "react-bootstrap";
-import { useNavigate } from "react-router";
+import { useContext } from 'react';
+import { Row, Col, Card } from "react-bootstrap";
 
 import TeamContext from '../context/TeamContext';
-import crest3 from "../images/crest3.png";
 
 export default function Schedule() {
 
@@ -40,7 +38,7 @@ export default function Schedule() {
                                 <h5>Week {weekNum}</h5>
                             </Col>
                             <Col xs='auto' className="d-flex flex-column justify-content-center">
-                                <img style={{ width: 50, marginLeft: 100 }} src={imgMap[oppTeam.logo]}></img>
+                                <img style={{ width: 50, marginLeft: 100 }} alt={"opponent team logo"} src={imgMap[oppTeam.logo]}></img>
                             </Col>
                             <Col className="d-flex flex-column justify-content-center">
                                 <h4>{matchup.opponent}</h4>

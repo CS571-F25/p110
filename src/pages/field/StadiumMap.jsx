@@ -1,7 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Card, Container, Row, Col } from "react-bootstrap";
-import { useNavigate } from "react-router";
-import { useLocation } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
 import StadiumMap from '../../images/stadiummap2.jpg';
 
@@ -15,7 +12,7 @@ export default function CarryInPolicy() {
                     <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 0, marginTop: 10 }} />
                 </Row>
                 <Row className='justify-content-center'>
-                    <img src={StadiumMap}></img>
+                    <img alt={"stadium map"} src={StadiumMap}></img>
                 </Row>
                 <Row style={{ textAlign: "left" }}>
                     <Col style={{ marginLeft: 100 }}>

@@ -1,43 +1,43 @@
 {
   "team_name": "Big Money Ballin'",
   "league": "ESPN Fantasy 2025",
-  "week": 11,
+  "week": 13,
   "teams": {
     "You Got Careyied": [
       {
-        "wins": 6,
-        "losses": 5,
+        "wins": 7,
+        "losses": 6,
         "ties": 0,
         "logo": "careyied.png"
       }
     ],
     "Kendall you guys lose": [
       {
-        "wins": 4,
-        "losses": 7,
+        "wins": 5,
+        "losses": 8,
         "ties": 0,
         "logo": "kendall.png"
       }
     ],
     "Aiden's Successful Squad": [
       {
-        "wins": 7,
-        "losses": 4,
+        "wins": 8,
+        "losses": 5,
         "ties": 0,
         "logo": "aiden.png"
       }
     ],
     "Bye Week (Big O)": [
       {
-        "wins": 7,
-        "losses": 4,
+        "wins": 8,
+        "losses": 5,
         "ties": 0,
         "logo": "byeweek.jpg"
       }
     ],
     "Stinky Stinky": [
       {
-        "wins": 6,
+        "wins": 8,
         "losses": 5,
         "ties": 0,
         "logo": "stinky.png"
@@ -46,22 +46,22 @@
     "Skillededededed": [
       {
         "wins": 2,
-        "losses": 9,
+        "losses": 11,
         "ties": 0,
         "logo": "skillededed.jpg"
       }
     ],
     "Big Money Ballin'": [
       {
-        "wins": 6,
-        "losses": 5,
+        "wins": 7,
+        "losses": 6,
         "ties": 0
       }
     ],
     "Maddux's Fantaslay Team 💅": [
       {
-        "wins": 6,
-        "losses": 5,
+        "wins": 7,
+        "losses": 6,
         "ties": 0,
         "logo": "maddux.png"
       }
@@ -1384,63 +1384,63 @@
           "position": "QB",
           "team": "LAR",
           "status": "Starter",
-          "points": 0
+          "points": 22.92
         },
         {
           "name": "James Cook",
           "position": "RB",
           "team": "BUF",
           "status": "Starter",
-          "points": 0
+          "points": 21.9
         },
         {
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
           "status": "Starter",
-          "points": 0
+          "points": 12.4
         },
         {
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
           "status": "Starter",
-          "points": 0
+          "points": 23.2
         },
         {
           "name": "Stefon Diggs",
           "position": "WR",
           "team": "NE",
           "status": "Starter",
-          "points": 0
+          "points": 4.0
         },
         {
           "name": "Travis Kelce",
           "position": "TE",
           "team": "KC",
           "status": "Starter",
-          "points": 0
+          "points": 8.4
         },
         {
           "name": "A.J. Brown",
           "position": "FLEX",
           "team": "MIN",
           "status": "FLEX",
-          "points": 0
+          "points": 25.0
         },
         {
           "name": "Lions Defense",
           "position": "D/ST",
           "team": "DET",
           "status": "Starter",
-          "points": 0
+          "points": -3.0
         },
         {
           "name": "Chase McLaughlin",
           "position": "K",
           "team": "TB",
           "status": "Starter",
-          "points": 0
+          "points": 1.0
         }
       ],
       "bench": [
@@ -1466,19 +1466,19 @@
           "name": "Baker Mayfield",
           "position": "QB",
           "team": "TB",
-          "points": 0
+          "points": 3.54
         },
         {
           "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
-          "points": 0
+          "points": "Q"
         },
         {
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "points": 0
+          "points": 4.0
         },
         {
           "name": "Broncos Defense",
@@ -1489,11 +1489,11 @@
       ],
       "matchup": {
         "opponent": "Bye Week (Big O)",
-        "your_score": 0,
-        "your_projected": 121.6,
-        "opponent_projected": 140.94,
-        "opponent_score": 0,
-        "result": "W"
+        "your_score": 115.82,
+        "your_projected": 129.07,
+        "opponent_projected": 143.68,
+        "opponent_score": 192.46,
+        "result": "L"
       }
     },
     "13": {
@@ -1503,47 +1503,47 @@
           "position": "QB",
           "team": "LAR",
           "status": "Starter",
-          "points": 26.84
+          "points": 11.62
         },
         {
           "name": "James Cook",
           "position": "RB",
           "team": "BUF",
           "status": "Starter",
-          "points": 13.5
+          "points": 18.7
         },
         {
-          "name": "Jacory Croskey-Merritt",
+          "name": "Saquon Barkley",
           "position": "RB",
-          "team": "WSH",
+          "team": "PHI",
           "status": "Starter",
-          "points": 5.1
+          "points": 5.6
         },
         {
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
           "status": "Starter",
-          "points": 23.0
+          "points": 21.8
         },
         {
-          "name": "Ladd McConkey",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "LAC",
+          "team": "NE",
           "status": "Starter",
-          "points": 9.6
+          "points": 5.6
         },
         {
           "name": "Travis Kelce",
           "position": "TE",
           "team": "KC",
           "status": "Starter",
-          "points": 12.6
+          "points": 15.5
         },
         {
-          "name": "Deebo Samuel",
+          "name": "A.J. Brown",
           "position": "FLEX",
-          "team": "MIN",
+          "team": "PHI",
           "status": "FLEX",
           "points": 9.4
         },
@@ -1552,66 +1552,66 @@
           "position": "D/ST",
           "team": "DEN",
           "status": "Starter",
-          "points": 7.0
+          "points": 1.0
         },
         {
-          "name": "Andy Borregales",
+          "name": "Chase McLaughlin",
           "position": "K",
-          "team": "NE",
+          "team": "TB",
           "status": "Starter",
-          "points": 6.0
+          "points": 10.0
         }
       ],
       "bench": [
         {
-          "name": "Saquon Barkley",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "PHI",
-          "points": "BYE"
+          "team": "WSH",
+          "points": 2.0
         },
         {
           "name": "Deebo Samuel",
           "position": "WR",
           "team": "WSH",
-          "points": "BYE"
+          "points": 11.1
         },
         {
           "name": "Ladd McConkey",
           "position": "WR",
           "team": "LAC",
-          "points": 0
+          "points": 13.9
         },
         {
           "name": "Baker Mayfield",
           "position": "QB",
           "team": "TB",
-          "points": 0
+          "points": 14.46
         },
         {
           "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
-          "points": 0
+          "points": "Q"
         },
         {
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "points": "BYE"
+          "points": 4.7
         },
         {
-          "name": "Broncos Defense",
+          "name": "Lions Defense",
           "position": "DS/T",
           "team": "DEN",
-          "points": "BYE"
+          "points": -2.0
         }
       ],
       "matchup": {
         "opponent": "You Got Careyied",
-        "your_score": 0,
-        "your_projected": 121.78,
-        "opponent_projected": 105.12,
-        "opponent_score": 0,
+        "your_score": 125.02,
+        "your_projected": 128.23,
+        "opponent_projected": 126.86,
+        "opponent_score": 106.42,
         "result": "W"
       }
     }

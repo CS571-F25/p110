@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router';
-import { Container } from 'react-bootstrap';
 
 import Team from './pages/Team';
 import BecomeAnOwner from './pages/BecomeAnOwner';
@@ -19,12 +18,14 @@ import Parking from './pages/field/Parking';
 import FanCodeOfConduct from './pages/field/FanCodeOfConduct';
 import CarryInPolicy from './pages/field/CarryInPolicy';
 import ContactUs from './pages/field/ContactUs';
+import Community from './pages/Community';
 
 import jteam from './jsons/team.json';
 
 function App() {
 
   const [team, setTeam] = useState({});
+  const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem("username") ? 1 : 0);
 
   useEffect(() => {
     setTeam(jteam);
@@ -34,14 +35,14 @@ function App() {
   return (
     <BrowserRouter basename='/p110/'>
       <Routes>
-        <Route path="/" element={<AppLayout team={team} setTeam={setTeam} />}>
+        <Route path="/" element={<AppLayout team={team} setTeam={setTeam} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}>
           <Route index element={<Home />} />
           <Route path="/News" element={<News />}></Route>
           <Route path="/Field" element={<Field />}></Route>
           <Route path="/Schedule" element={<Schedule />}></Route>
           <Route path="/Team" element={<Team />}></Route>
-          <Route path="/BecomeAnOwner" element={<BecomeAnOwner />}></Route>
-          <Route path="/Login" element={<Login />}></Route>
+          <Route path="/BecomeAnOwner" element={<BecomeAnOwner isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}></Route>
+          <Route path="/Login" element={<Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}></Route>
           <Route path="/Story" element={<Story />}></Route>
           <Route path="/KnowBeforeYouGo" element={<KnowBeforeYouGo />}></Route>
           <Route path="/StadiumMap" element={<StadiumMap />}></Route>
@@ -49,6 +50,7 @@ function App() {
           <Route path="/FanCodeOfConduct" element={<FanCodeOfConduct />}></Route>
           <Route path="/CarryInPolicy" element={<CarryInPolicy />}></Route>
           <Route path="/ContactUs" element={<ContactUs />}></Route>
+          <Route path="/Community" element={<Community isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}></Route>
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>

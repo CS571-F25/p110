@@ -1,7 +1,5 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Button, Form, Row, Col, Card, Container } from "react-bootstrap";
-import { useNavigate } from "react-router";
-import { useOutletContext } from "react-router-dom";
+import { useContext, useEffect, useState } from 'react';
+import { Button, Row, Col, Card, Container } from "react-bootstrap";
 import TeamContext from '../context/TeamContext';
 
 
