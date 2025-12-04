@@ -1,0 +1,80 @@
+{
+    "1": {
+      "title": "Player of the Week",
+      "description": "Vote for the standout performer based on last week's game stats and highlights.",
+      "options": [
+        "Davante Adams",
+        "Saquon Barkley",
+        "A.J. Brown",
+        "Travis Kelce",
+        "Ladd McConkey"
+      ]
+    },
+    "2": {
+      "title": "Next Week's Jersey",
+      "description": "Help choose the team's look for next week's matchup.",
+      "options": [
+        "Home Green",
+        "Away White",
+        "Blackout Edition",
+        "Throwback Classic",
+        "Color Rush"
+      ]
+    },
+    "3": {
+      "title": "Next Week's Kick-Off Song",
+      "description": "Set the tone for the game by picking the opening hype track.",
+      "options": [
+        "‘Humble’ – Kendrick Lamar",
+        "'Yes Indeed' – Lil Baby & Drake",
+        "‘Thunderstruck’ – AC/DC",
+        "‘Sicko Mode’ – Travis Scott",
+        "'Hot' - Young Thug & Gunna"
+      ]
+    },
+    "4": {
+      "title": "New Stadium Section",
+      "description": "Choose what exciting new area should be added to enhance the fan experience.",
+      "options": [
+        "Rooftop Party Deck",
+        "VIP Lounge",
+        "Kids' Activity Zone",
+        "Standing-Only Hype Section",
+        "Fan Art Wall"
+      ]
+    },
+    "5": {
+      "title": "Next Halftime Performer",
+      "description": "Pick the artist you'd love to see take over the halftime stage.",
+      "options": [
+        "Drake",
+        "Taylor Swift",
+        "Travis Scott",
+        "Morgan Wallen",
+        "Post Malone"
+      ]
+    },
+    "6": {
+      "title": "New Concession Item",
+      "description": "Help us expand the stadium menu with something delicious.",
+      "options": [
+        "Loaded Nacho Platter",
+        "Pulled Pork Sandwich",
+        "Cheese-Stuffed Pretzels",
+        "Spicy Chicken Sliders",
+        "Frozen Lemonade"
+      ]
+    },
+    "7": {
+      "title": "Theme Night",
+      "description": "Choose the theme for our next home-game celebration.",
+      "options": [
+        "Neon Night",
+        "1970s Throwback",
+        "White-Out Game",
+        "Country Night",
+        "Superhero Night"
+      ]
+    }
+}
+

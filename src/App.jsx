@@ -19,6 +19,8 @@ import FanCodeOfConduct from './pages/field/FanCodeOfConduct';
 import CarryInPolicy from './pages/field/CarryInPolicy';
 import ContactUs from './pages/field/ContactUs';
 import Community from './pages/Community';
+import Events from './pages/Events';
+import Polls from './pages/Polls';
 
 import jteam from './jsons/team.json';
 
@@ -51,6 +53,8 @@ function App() {
           <Route path="/CarryInPolicy" element={<CarryInPolicy />}></Route>
           <Route path="/ContactUs" element={<ContactUs />}></Route>
           <Route path="/Community" element={<Community isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}></Route>
+          <Route path="/Events" element={<Events />}></Route>    
+          <Route path="/Polls" element={<Polls isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}></Route>                    
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>

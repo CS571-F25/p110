@@ -62,7 +62,7 @@ export default function Home(props) {
                 <h1 style={{ marginTop: 20 }}>Official Home of Big Money Ballin' Football</h1>
                 <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 10, marginTop: 10 }} />
             </Row>
-            <Row style={{ marginBottom: 200, marginLeft: 20, marginRight: 20, marginTop: 100 }}>
+            <Row className="shadow-sm" style={{ marginBottom: 200, marginLeft: 20, marginRight: 20, marginTop: 100 }}>
                 <Card style={{ backgroundColor: "white" }}>
                     <h5 style={{ marginTop: 10, backgroundColor: "white" }}>Week {week} Matchup</h5>
                     <Row style={{ marginBottom: 30 }}>

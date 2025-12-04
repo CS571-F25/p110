@@ -32,7 +32,7 @@ export default function Schedule() {
                 const oppTeam = team.teams[matchup.opponent]?.[0] ?? {};
 
                 return (
-                    <Card key={weekNum} className='p-3' style={{ backgroundColor: "white", width: '1200px', margin: 10 }}>
+                    <Card key={weekNum} className="shadow-sm p-3" style={{ backgroundColor: "white", width: '1200px', margin: 10 }}>
                         <Row className='justify-content-center'>
                             <Col xs="auto" className="d-flex flex-column justify-content-center">
                                 <h5>Week {weekNum}</h5>

@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
+import { useLocation } from "react-router";
 
 import TeamContext from "./context/TeamContext.js";
 import crest3 from "./images/crest3.png";
@@ -7,6 +8,7 @@ import crest3 from "./images/crest3.png";
 function AppLayout(props) {
 
     const { team, setTeam } = props;
+    const location = useLocation();
 
     return (
         <Container fluid>
@@ -27,7 +29,7 @@ function AppLayout(props) {
                     {
                         !props.isLoggedIn ?
                             <Nav className="ms-auto">
-                                <Nav.Link as={Link} className="fs-5" to="Login">Login</Nav.Link>
+                                <Nav.Link as={Link} className="fs-5" to="Login" state={{ from: location.pathname }}>Login</Nav.Link>
                             </Nav>
                             :
                             <Nav className="ms-auto">

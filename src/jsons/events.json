@@ -1,0 +1,67 @@
+{
+  "1": {
+    "title": "Charity Autograph Signing",
+    "date": "December 15th, 2025",
+    "location": "Capital City Fleet Farm",
+    "summary": "Big Money Ballin' K Chase McLaughlin, WR A.J. Brown, TE Travis Kelce, and TE Dallas Goedert are signing autographs at Fleet Farm in exchange for donations to the Salvation Army.",
+    "image": "/images/events/jersey-vote.jpg"
+  },
+  "2": {
+    "title": "Holiday Meet-and-Greet",
+    "date": "December 22nd, 2025",
+    "location": "Treasury Training Facility",
+    "summary": "Celebrate the season with your favorite players. Enjoy photos, autographs, and exclusive behind-the-scenes stories from the locker room.",
+    "image": "/images/events/meet-and-greet.jpg"
+  },
+  "3": {
+    "title": "Big Money Field Winter Tour",
+    "date": "January 6-8th, 2026 from 8:00 AM to 4:45 PM",
+    "location": "Big Money Field",
+    "summary": "Get an up-close look at where the action unfolds, as well as behind-the-scenes spots you can't see on gameday. Tours begin at the top of each hour and run approximately 45 minutes.",
+    "image": "/images/events/halftime-vote.jpg"
+  },
+  "4": {
+    "title": "Community Charity Day",
+    "date": "February 1st, 2026",
+    "location": "Prosperity Community Park",
+    "summary": "Join players, staff, and fellow fans for a day of community service. Activities include youth camps, park cleanup, and a charity raffle.",
+    "image": "/images/events/charity-day.jpg"
+  },
+  "5": {
+    "title": "Fan Appreciation Scrimmage",
+    "date": "March 10th, 2026",
+    "location": "Big Money Field",
+    "summary": "Watch an open scrimmage, meet the players afterward, and enjoy exclusive merchandise giveaways during this fan-focused celebration.",
+    "image": "/images/events/fan-scrimmage.jpg"
+  },
+  "6": {
+    "title": "Draft Day Watch Party",
+    "date": "April 25th, 2026 from 12:00 to 9:00 PM",
+    "location": "Holdings Hall",
+    "summary": "Experience the excitement of Draft Day with live coverage, guest analysts, food trucks, and real-time reactions from the players.",
+    "image": "/images/events/draft-day.jpg"
+  },
+  "7": {
+    "id": 7,
+    "title": "Training Camp Kickoff",
+    "date": "July 12th, 2026",
+    "location": "Fortune Practice Field",
+    "summary": "Come out for the first day of training camp and catch your favorite players in action. Enjoy fan zones, giveaways, and family-friendly activities.",
+    "image": "/images/events/training-camp.jpg"
+  },
+  "8": {
+    "title": "Big Money Field Summer Tour",
+    "date": "July 28-30th, 2026 from 8:00 AM to 4:45 PM",
+    "location": "Big Money Field",
+    "summary": "Get an up-close look at where the action unfolds, as well as behind-the-scenes spots you can't see on gameday. Tours begin at the top of each hour and run approximately 45 minutes.",
+    "image": "/images/events/halftime-vote.jpg"
+  },
+  "9": {
+    "id": 8,
+    "title": "Legends & Owners Dinner",
+    "date": "August 22nd, 2026 from 4:30 to 9:00 PM",
+    "location": "Greenwood Banquet Hall",
+    "summary": "A special dinner event for registered Owners featuring retired players, behind-the-scenes stories, and exclusive surprises.",
+    "image": "/images/events/owners-dinner.jpg"
+  }
+}

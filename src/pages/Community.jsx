@@ -17,7 +17,7 @@ export default function Community(props) {
             <h1 style={{ marginTop: 40 }}>Community</h1>
             <hr style={{ width: "80px", borderTop: "3px solid #2c7a2c", marginBottom: 60, marginTop: 10 }} />
         </Row>
-        <Card style={{ marginBottom: 80 }}>
+        <Card className="shadow-sm" style={{ marginBottom: 80 }}>
             <Row className='mt-3'>
                 <Col style={{ marginLeft: 40 }}>
                     <h1 className='mt-4 mb-3'>Upcoming Events</h1>
@@ -28,24 +28,11 @@ export default function Community(props) {
                         margin: "auto"
                     }}
                     >Get a first look at what’s ahead for Big Money Ballin’. From fan-driven jersey decisions to special appearances and game-day festivities, each event gives you a chance to help shape the season. Explore what’s coming up and be part of the excitement before it even kicks off.</p>
-                    {
-                        props.isLoggedIn ?
-                            <Button
-                                className='my-5'
-                                variant='success'
-                                onClick={() => {
-                                    alert("Congratulations! You are now an owner!");
-                                    localStorage.setItem("isAnOwner", 1);
-                                    setIsAnOwner(1);
-                                }}
-                            >Our Events</Button>
-                            :
-                            <Button
-                                className='my-5'
-                                variant='success'
-                                onClick={() => navigate("/Login", { state: { from: location.pathname } })}
-                            >Our Events</Button>
-                    }
+                    <Button
+                        className='my-5'
+                        variant='success'
+                        onClick={() => navigate("/Events", { state: { from: location.pathname } })}
+                    >Our Events</Button>
                 </Col>
                 <Col>
                     <img
@@ -57,7 +44,7 @@ export default function Community(props) {
                 </Col>
             </Row>
         </Card>
-        <Card style={{ marginBottom: 80 }}>
+        <Card className="shadow-sm" style={{ marginBottom: 80 }}>
             <Row className='mt-3'>
                 <Col>
                     <img
@@ -76,28 +63,15 @@ export default function Community(props) {
                         margin: "auto"
                     }}
                     >From jersey designs to halftime entertainment, your vote helps shape the direction of the team. Cast your votes and check back often for new polls.</p>
-                    {
-                        props.isLoggedIn ?
-                            <Button
-                                className='my-5'
-                                variant='success'
-                                onClick={() => {
-                                    alert("Congratulations! You are now an owner!");
-                                    localStorage.setItem("isAnOwner", 1);
-                                    setIsAnOwner(1);
-                                }}
-                            >Cast Your Votes</Button>
-                            :
-                            <Button
-                                className='my-5'
-                                variant='success'
-                                onClick={() => navigate("/Login", { state: { from: location.pathname } })}
-                            >Cast Your Votes</Button>
-                    }
+                    <Button
+                        className='my-5'
+                        variant='success'
+                        onClick={() => navigate("/Polls", { state: { from: location.pathname } })}
+                    >Cast Your Votes</Button>
                 </Col>
             </Row>
         </Card>
-        <Card style={{ marginBottom: 80 }}>
+        <Card className="shadow-sm" style={{ marginBottom: 80 }}>
             <Row className='mt-3'>
                 <Col style={{ marginLeft: 40 }}>
                     <h1 className='mt-4 mb-3'>Become an Owner</h1>
@@ -114,7 +88,7 @@ export default function Community(props) {
                                 <Button
                                     className='my-5'
                                     variant='success'
-                                >Thank You For Becoming an Owner</Button>
+                                >Check out Your Perks</Button>
                                 :
                                 <Button
                                     className='my-5'
